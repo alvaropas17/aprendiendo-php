@@ -46,3 +46,5 @@ echo $my_bool . "\n"; // Para asignarle un valor al booleano tendríamos que hac
 echo "El valor de mi integer es $my_int y el de mi boolean es $my_bool.\n";
 
 // Constantes
+const MY_CONSTANT = "Valor de la constante";
+echo $MY_CONSTANT . "\n";
