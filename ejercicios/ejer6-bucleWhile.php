@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ej 5 - Bucle while</title>
+    <title>Ej 6 - Bucle for</title>
 </head>
 <body>
     <?php 
     
     $contador = 0;
 
-    while ($contador <= 15) {
+    for ($i=10; $i < 10 ; $i++) { 
         # code...
-        echo $contador;
-        $contador++;
+        echo $i;
     }
     
     ?>
