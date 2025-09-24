@@ -27,7 +27,7 @@
         }
     }
 
-    (double) $mediaNotas = $sumaNotas / (count($calificacionPromedio) - 1);
+    $mediaNotas = $sumaNotas / (count($calificacionPromedio));
     echo "<p> Este es el array impreso por pantalla</p>";
     print_r($calificacionPromedio);
 
