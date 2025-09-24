@@ -3,15 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ej 11 - Comparación variables</title>
+    <title>Ejercicio 2 Arrays</title>
 </head>
 <body>
-
-<?php
-
-    
-
-?>
-    
+    <?php
+    ?>
 </body>
 </html>
