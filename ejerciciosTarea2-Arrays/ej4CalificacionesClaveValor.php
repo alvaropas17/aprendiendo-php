@@ -9,7 +9,7 @@
 
 <body>
     <h1>3.- Crea un programa que calcule el promedio de calificaciones de un estudiante. Utiliza un array clave-valor para almacenar las calificaciones de distintas asignaturas y luego calcula el promedio.</h1>
-    
+
     <?php
     $calificaciones = [
         "Matemáticas" => 6.4,

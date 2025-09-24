@@ -48,11 +48,11 @@
     echo "<h3>Segunda manera de recorrer el array</h3>";
     foreach ($ArrayFrutasComplicado as $value) {
         if (is_array($value)) {
-            $pinta='<p>';
+            $pinta = '<p>';
             foreach ($value as $valor) {
-                $pinta.=$valor. ':';
+                $pinta .= $valor . ':';
             }
-            $pinta =$valor.'</p>';
+            $pinta = $valor . '</p>';
             echo $pinta;
         }
     }

@@ -30,7 +30,7 @@
     echo "<h2>Tercera manera de recorrer arrays</h2>";
     foreach ($array as $key => $value) {
         echo '<p> La posición en el array ' .  $key . ' tiene valor ' . $valor . ' </p>';
-    }   
+    }
 
     echo "<h2>Primera manera de recorrer arrays clave valor</h2>";
     foreach ($arrayClaveValor as $value) {
@@ -43,9 +43,9 @@
     }
 
 
-    
 
-    
+
+
 
 
 
