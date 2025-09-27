@@ -15,10 +15,34 @@
 
     <?php
 
+    /*
+    Mostrar:
+    - Marca
+    - Número de coches vendidos como en stock
+
+    Web donde se musetre una lista con los datos que pide el cliente
+    */
+
     $concesionario = [
-        "2" => "Tesla",
-        "5" => "Mercedes"
+
+        ["Marca" => "Tesla", "vendidos" => "6", "stock" => "26"],
+        ["Marca" => "Mercedes", "vendidos" => "12", "stock" => "14"],
+        ["Marca" => "Audi", "vendidos" => "6", "stock" => "19"],
+        ["Marca" => "BMW", "vendidos" => "18", "stock" => "23"]
+
     ];
+
+
+    foreach ($datos as $value) {
+        $marca = $value["Marca"];
+        $vendidos = $value["vendidos"];
+        $stock = $value["stock"];
+
+        echo "<p>$marca ha vendido $vendidos coches y le quedan $stock en stock.</p>";
+    }
+    // else echo "<p>$datos</p>";
+
+
 
     ?>
 
